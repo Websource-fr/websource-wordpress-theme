@@ -1,0 +1,31 @@
+/* Footer: strip above, columns, bottom bar. Body class wsx-ft-dark. */
+.wsx-footer{color:var(--color-footer-ink,#f1f5f4)}
+.wsx-footer__before{background:var(--color-brand-600,#0f766e);color:var(--color-brand-on,#fff);padding-block:1.5rem}
+.wsx-footer__before .wsx-widget{margin:0}
+.wsx-footer__before a{color:inherit}
+.wsx-footer__body{background:var(--color-footer,#14282b)}
+.wsx-footer__main{display:flex;flex-wrap:wrap;gap:1.5rem 2.5rem;padding-block:2.5rem;align-items:flex-start}
+.wsx-footer__main>*{flex:1 1 10rem;min-width:0;margin:0}
+.wsx-footer__main>.wsx-footer__about{flex:0 1 20rem;max-width:22rem}
+.wsx-footer__main :is(h2,h3,h4){margin:0 0 .75rem;font-size:1rem;color:var(--color-footer-ink,#f1f5f4)}
+.wsx-footer__main :is(ul,ol,p){margin-block:0}
+.wsx-footer__main :is(ul,ol){padding:0;list-style:none}
+.wsx-footer__main li{margin:0;padding:0}
+.wsx-footer__main a{display:inline-flex;align-items:center;min-height:2rem;color:var(--color-footer-muted,#b9c6c4);text-decoration:none}
+.wsx-footer__main a:hover{color:var(--color-footer-hover,#f7c34c)}
+.wsx-footer__main .wsx-widget{margin-block-end:1.5rem}
+.wsx-footer__main .wsx-widget:last-child{margin-block-end:0}
+.wsx-footer__about{display:grid;gap:.75rem;font-size:.9375rem;line-height:1.5;color:var(--color-footer-muted,#b9c6c4)}
+.wsx-footer__about p{margin:0}
+.wsx-footer__brand img{display:block;width:auto;height:2.75rem;max-width:min(14rem,100%);object-fit:contain;object-position:left}
+.wsx-footer__brand .wsx-logo-text,.wsx-footer__main .wsx-footer__brand a{min-height:0;color:var(--color-footer-ink,#f1f5f4);font-size:1.375rem}
+.wsx-footer__desc{max-width:34ch;overflow-wrap:anywhere}
+.wsx-footer__bar{background:var(--color-footer-deep,#0d1b1d);color:var(--color-footer-muted,#b9c6c4)}
+.wsx-footer__bar a{color:var(--color-footer-muted,#b9c6c4)}
+.wsx-footer__bar a:hover{color:var(--color-footer-ink,#f1f5f4)}
+.wsx-footer__bar .wsx-widget{margin:0}
+.wsx-footer input,.wsx-footer select,.wsx-footer textarea{color:var(--color-ink,#14282b)}
+/* Light footer */
+@media (max-width:575.98px){
+  .wsx-footer__bar>.wsx-container{flex-direction:column;align-items:flex-start;gap:.5rem}
+}

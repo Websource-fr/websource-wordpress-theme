@@ -1,0 +1,1 @@
+.editor-styles-wrapper{font-family:var(--font-sans);color:var(--color-ink);background:var(--color-page)}.editor-styles-wrapper :is(h1,h2,h3,h4,h5,h6){font-family:var(--font-head)}.editor-styles-wrapper .wp-block{max-width:52rem}.editor-styles-wrapper .wp-block[data-align=wide]{max-width:80rem}.editor-styles-wrapper .wp-block[data-align=full]{max-width:none}

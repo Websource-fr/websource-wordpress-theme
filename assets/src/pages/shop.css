@@ -1,0 +1,22 @@
+/* Product archive: shop, categories, tags, attributes, brands, product search. */
+.woocommerce-products-header{margin-block:.25rem 1.25rem}
+.woocommerce-products-header__title{margin:0}
+.term-description,.page-description{margin-block-start:.5rem;color:color-mix(in srgb,var(--color-ink,#14282b) 80%,transparent)}
+.term-description p:last-child{margin-block-end:0}
+.wsx-toolbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.75rem 1rem;margin-block-end:1.25rem;padding:.625rem .875rem;border:1px solid var(--color-line,#d9e6e4);border-radius:var(--radius-xl,1rem);background:var(--color-surface,#fff)}
+.woocommerce-result-count{margin:0;font-size:.9375rem;color:var(--wst-muted)}
+.woocommerce-ordering{margin:0;margin-inline-start:auto}
+.woocommerce-ordering select{min-height:2.5rem;padding-block:.375rem;width:auto;max-width:100%;font-size:.9375rem}
+.wsx-toolbar__filter{display:none;min-height:2.5rem;padding:.375rem .875rem}
+@media (max-width:991.98px){
+  .wsx-toolbar__filter{display:inline-flex}
+  .woocommerce-result-count{order:3;flex:1 0 100%}
+  .woocommerce-ordering{flex:1 1 10rem}
+  .woocommerce-ordering select{width:100%}
+}
+/* Sub-categories shown in the product grid */
+ul.products li.product-category a{display:grid;gap:.5rem;height:100%;padding:.75rem;border:1px solid var(--color-line,#d9e6e4);border-radius:var(--radius-2xl,1.5rem);background:var(--color-surface,#fff);color:var(--color-ink,#14282b);text-decoration:none}
+ul.products li.product-category img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:1rem}
+.woocommerce-loop-category__title{margin:0;font-size:1rem}
+.woocommerce-loop-category__title mark{background:none;color:var(--wst-muted);font-weight:400}
+.woocommerce-no-products-found{margin-block:1rem}

@@ -1,0 +1,8 @@
+/* Third-party widgets shipped by WooCommerce with their own unlayered CSS (select2): kept out of any layer to win. */
+.select2-container .select2-selection--single,.select2-container--default .select2-selection--single{height:2.75rem;border:1px solid var(--color-line,#d9e6e4);border-radius:var(--radius-xl,1rem);background:var(--color-surface,#fff)}
+.select2-container--default.select2-container--open .select2-selection--single,.select2-container--default.select2-container--focus .select2-selection--single{border-color:var(--color-brand-500,#1a9b8f)}
+.select2-container--default .select2-search--dropdown .select2-search__field{min-height:2.5rem;border-radius:.625rem;border-color:var(--color-line,#d9e6e4)}
+.select2-container--default .select2-selection--single .select2-selection__rendered{padding-inline:.875rem;line-height:2.65rem;color:var(--color-ink,#14282b)}
+.select2-container--default .select2-selection--single .select2-selection__arrow{height:2.65rem;inset-inline-end:.5rem}
+.select2-dropdown{border-color:var(--color-line,#d9e6e4);border-radius:.75rem;overflow:hidden}
+.select2-container--default .select2-results__option--highlighted[aria-selected],.select2-container--default .select2-results__option--highlighted[data-selected]{background:var(--color-brand-600,#0f766e)}

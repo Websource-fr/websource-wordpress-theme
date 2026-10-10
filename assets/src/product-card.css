@@ -1,0 +1,41 @@
+/* Product card (lists, related products, shortcodes) — same look as the PrestaShop miniature. */
+ul.products{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin:0 0 1.5rem;padding:0;list-style:none}
+ul.products::before,ul.products::after{display:none}
+@media (min-width:768px){ul.products{grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem}}
+@media (min-width:1100px){
+  ul.products.columns-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+  ul.products.columns-5{grid-template-columns:repeat(5,minmax(0,1fr))}
+  ul.products.columns-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+ul.products li.product{min-width:0;margin:0}
+.wsx-pm{position:relative;display:flex;flex-direction:column;height:100%;padding:.75rem;border:1px solid var(--color-line,#d9e6e4);border-radius:var(--radius-2xl,1.5rem);background:var(--color-surface,#fff);box-shadow:var(--wst-card-shadow,none);transition:box-shadow .2s,transform .2s,border-color .2s}
+.wsx-pm:hover{border-color:var(--color-brand-200,#b0e0d9);box-shadow:0 12px 30px -12px rgba(20,40,43,.25)}
+.wsx-pm__media{position:relative;overflow:hidden;border-radius:calc(var(--radius-2xl,1.5rem) - .5rem);background:var(--color-brand-50,#effaf8)}
+.wsx-pm__media a{display:block}
+.wsx-pm__media img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;transition:transform .35s ease}
+.wsx-pm:hover .wsx-pm__media img{transform:scale(1.04)}
+.wsx-pm__body{display:flex;flex:1 1 auto;flex-direction:column;gap:.25rem;padding:.75rem .25rem .5rem}
+.wsx-pm__title{margin:0;font-size:1rem;font-weight:600;line-height:1.35}
+.wsx-pm__title a{color:var(--color-ink,#14282b);text-decoration:none}
+.wsx-pm__title a:hover{color:var(--color-brand-700,#0b5f58)}
+.wsx-pm__title a::after{content:"";position:absolute;inset:0;z-index:1}
+.wsx-pm__body .price{margin-block-start:auto;font-size:1.0625rem}
+.wsx-pm__body .star-rating{font-size:.8125rem}
+.wsx-pm__actions{position:relative;z-index:2;padding:0 .25rem .25rem}
+.wsx-pm__actions:empty{display:none}
+.wsx-pm__btn{width:100%;min-height:2.5rem;padding:.5rem .75rem;font-size:.9375rem}
+.wsx-pm__actions .added_to_cart{display:block;margin-block-start:.375rem;font-size:.875rem;font-weight:600;text-align:center}
+.wsx-pm__btn.loading{opacity:.6;pointer-events:none}
+.wsx-pm__btn.added::after{content:"✓";margin-inline-start:.25rem}
+/* Badges */
+.wsx-flags{position:absolute;inset-block-start:.625rem;inset-inline-start:.625rem;z-index:3;display:flex;flex-direction:column;align-items:flex-start;gap:.25rem;margin:0;padding:0;list-style:none;pointer-events:none}
+.wsx-flag{padding:.125rem .625rem;border-radius:999px;background:var(--color-brand-600,#0f766e);color:var(--color-brand-on,#fff);font-size:.75rem;font-weight:700;line-height:1.25rem}
+.wsx-flag.discount{background:var(--color-accent-wst,#f0556b);color:#fff}
+.wsx-flag.out_of_stock{background:var(--color-ink,#14282b);color:#fff}
+@media (max-width:479.98px){
+  .wsx-pm{padding:.5rem}
+  .wsx-pm__title{font-size:.9375rem}
+  .wsx-pm__btn{font-size:.8125rem;padding-inline:.5rem}
+}
+/* Section headings above product rows (related, up-sells, cross-sells) */
+.related>h2,.upsells>h2,.cross-sells>h2{margin:0 0 1rem}

@@ -1,0 +1,44 @@
+/* Application reset and typography (base layer): always in theme.css. */
+@layer base {
+  /* Short aliases of the tokens, for plugins and child themes. */
+  :root {
+    --wst-brand: var(--color-brand-600);
+    --wst-brand-light: var(--color-brand-500);
+    --wst-brand-dark: var(--color-brand-700);
+    --wst-brand-soft: var(--color-brand-50);
+    --wst-brand-on: var(--color-brand-on);
+    --wst-secondary: var(--color-secondary);
+    --wst-accent: var(--color-accent);
+    --wst-highlight: var(--color-accent-wst);
+    --wst-ink: var(--color-ink);
+    --wst-line: var(--color-line);
+    --wst-page: var(--color-page);
+    --wst-surface: var(--color-surface);
+    --wst-footer: var(--color-footer);
+    --wst-footer-ink: var(--color-footer-ink);
+    --wst-radius: var(--radius-xl);
+    --wst-radius-lg: var(--radius-2xl);
+    --wst-font: var(--font-sans);
+    --wst-font-head: var(--font-head);
+    --wst-container: var(--container-page);
+  }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body { @apply bg-page text-ink font-sans antialiased; line-height: 1.6; }
+  img, video { @apply max-w-full h-auto; }
+  a { color: var(--color-brand-text); text-underline-offset: 2px; }
+  a:hover { color: var(--color-brand-700); }
+  :focus-visible { outline: 2px solid var(--color-brand-500); outline-offset: 2px; }
+  h1, h2, h3, h4, h5, h6 { font-family: var(--font-head); font-weight: 700; line-height: 1.25; overflow-wrap: anywhere; }
+  h1 { font-size: clamp(1.5rem, 1.15rem + 1.6vw, 1.875rem); letter-spacing: -.015em; }
+  h2 { font-size: clamp(1.25rem, 1.05rem + .9vw, 1.5rem); }
+  h3 { font-size: 1.125rem; }
+  h4, h5, h6 { font-size: 1rem; }
+  [hidden] { display: none !important; }
+  .screen-reader-text { @apply sr-only; }
+  .wsx-flip { display: inline-block; }
+  [dir=rtl] .wsx-flip { transform: scaleX(-1); }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+  }
+}

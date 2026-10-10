@@ -1,0 +1,29 @@
+/* Editorial content written in the editor (pages, posts, product descriptions) and blocks alignment. */
+.wsx-entry{overflow-wrap:anywhere}
+.wsx-entry>:where(*){margin-block:0 1.125rem}
+.wsx-entry>:where(*:last-child){margin-block-end:0}
+.wsx-entry :where(h2,h3,h4){margin-block:2rem .75rem}
+.wsx-entry>:is(h2,h3,h4):first-child{margin-block-start:0}
+.wsx-entry :where(ul,ol):where(:not([class])),.wsx-entry :where(.wp-block-list){padding-inline-start:1.5rem}
+.wsx-entry :where(ul):where(:not([class])),.wsx-entry :where(ul.wp-block-list){list-style:disc}
+.wsx-entry :where(ol):where(:not([class])),.wsx-entry :where(ol.wp-block-list){list-style:decimal}
+.wsx-entry :where(ul,ol):where(:not([class]))>li,.wsx-entry :where(.wp-block-list)>li{margin-block:.25rem}
+.wsx-entry blockquote{margin-inline:0;padding:1rem 1.25rem;border-radius:var(--radius-xl,1rem);background:var(--color-brand-50,#effaf8);color:var(--color-ink,#14282b)}
+.wsx-entry blockquote p:last-child{margin:0}
+.wsx-entry blockquote cite{display:block;margin-block-start:.5rem;font-size:.875rem;font-style:normal;color:var(--wst-muted)}
+.wsx-entry :where(.wp-block-image img,figure.wp-block-image,img[class*=wp-image]){border-radius:var(--radius-xl,1rem)}
+.wsx-entry figure{margin-inline:0}
+.wsx-entry figcaption{margin-block-start:.5rem;font-size:.875rem;color:var(--wst-muted);text-align:center}
+.wsx-entry :where(.wp-block-table table,table:not([class])){width:100%;border-collapse:collapse;font-size:.9375rem}
+.wsx-entry :where(.wp-block-table table,table:not([class])) :where(th,td){padding:.625rem .75rem;border-block-end:1px solid var(--color-line,#d9e6e4);text-align:start}
+.wsx-entry :where(.wp-block-table table,table:not([class])) :where(th){font-weight:700;background:var(--color-brand-50,#effaf8)}
+.wsx-entry .wp-block-table{overflow-x:auto}
+.wsx-entry hr{border:0;border-block-start:1px solid var(--color-line,#d9e6e4);margin-block:2rem}
+.wsx-entry pre{padding:1rem;border-radius:var(--radius-xl,1rem);background:#0d1b1d;color:#e6f0ee;overflow-x:auto;font-size:.875rem}
+.wsx-entry code{font-size:.9em}
+.wsx-entry .alignleft{float:inline-start;margin:0 1.25rem 1rem 0}
+.wsx-entry .alignright{float:inline-end;margin:0 0 1rem 1.25rem}
+.wsx-entry .aligncenter{display:block;margin-inline:auto}
+.wsx-entry::after{content:"";display:table;clear:both}
+.wsx-entry .alignfull{width:100vw;max-width:100vw;margin-inline:calc(50% - 50vw)}
+.wsx-page-links{display:flex;flex-wrap:wrap;align-items:center;gap:.375rem;margin-block:1.5rem}

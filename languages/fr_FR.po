@@ -1,0 +1,805 @@
+# Copyright (C) 2026 Websource
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Websource 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/websource\n"
+"Last-Translator: Websource <contact@websource.fr>\n"
+"Language-Team: Websource <contact@websource.fr>\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-08T18:18:36+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: websource\n"
+
+#. Theme Name of the theme
+#: style.css
+#: src/Customizer.php:66
+msgid "Theme options"
+msgstr "Options du thème"
+
+#. Theme URI of the theme
+#. Author URI of the theme
+#: style.css
+msgid "https://www.websource.fr/"
+msgstr "https://www.websource.fr/"
+
+#. Description of the theme
+#: style.css
+msgid "Fast, accessible shop theme for WordPress and WooCommerce. Tailwind v4 compiled to static CSS: one small base file plus one file per page type (home, product archive, product, cart, checkout, account, post, page, search, 404). Built-in SEO head (canonical, robots, hreflang, Open Graph, JSON-LD) that steps aside when an SEO plugin is active, six product page layouts, design tokens driven by CSS variables."
+msgstr "Thème de boutique rapide et accessible pour WordPress et WooCommerce. Tailwind v4 compilé en CSS statique : un petit socle commun et un fichier par type de page (accueil, liste de produits, fiche produit, panier, commande, compte, article, page, recherche, 404). En-tête SEO intégré (canonical, robots, hreflang, Open Graph, JSON-LD) qui s’efface quand une extension SEO est active, six dispositions de fiche produit, couleurs et arrondis pilotés par des variables CSS."
+
+#. Author of the theme
+#: style.css
+msgid "Websource"
+msgstr "Websource"
+
+#: 404.php:16
+msgid "This page cannot be found"
+msgstr "Cette page est introuvable"
+
+#: 404.php:17
+msgid "The address may be wrong, or the page may have been moved. Search for what you need, or go back to the home page."
+msgstr "L’adresse est peut-être erronée, ou la page a été déplacée. Lancez une recherche ou revenez à l’accueil."
+
+#: 404.php:20
+msgid "Back to the home page"
+msgstr "Retour à l’accueil"
+
+#: 404.php:22
+#: template-parts/home/hero.php:19
+msgid "Browse the shop"
+msgstr "Voir la boutique"
+
+#. translators: %d: number of comments
+#: comments.php:18
+#, php-format
+msgid "%d comment"
+msgid_plural "%d comments"
+msgstr[0] "%d commentaire"
+msgstr[1] "%d commentaires"
+
+#: header.php:18
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+#: index.php:21
+#: src/Breadcrumb.php:37
+#: template-parts/tabbar.php:23
+msgid "Blog"
+msgstr "Blog"
+
+#: index.php:40
+msgid "Nothing has been published here yet."
+msgstr "Rien n’a encore été publié ici."
+
+#: page.php:24
+#: single.php:40
+msgid "Pages:"
+msgstr "Pages :"
+
+#. translators: %s: search terms
+#: search.php:17
+#: src/Breadcrumb.php:55
+#, php-format
+msgid "Search results for “%s”"
+msgstr "Résultats de recherche pour « %s »"
+
+#. translators: %d: number of results
+#: search.php:18
+#, php-format
+msgid "%d result"
+msgid_plural "%d results"
+msgstr[0] "%d résultat"
+msgstr[1] "%d résultats"
+
+#: search.php:34
+msgid "No result matches your search. Try other words or check the spelling."
+msgstr "Aucun résultat ne correspond à votre recherche. Essayez d’autres mots ou vérifiez l’orthographe."
+
+#: single.php:44
+msgid "Posts"
+msgstr "Articles"
+
+#: src/Breadcrumb.php:23
+#: template-parts/tabbar.php:15
+msgid "Home"
+msgstr "Accueil"
+
+#: src/Breadcrumb.php:57
+msgid "Page not found"
+msgstr "Page introuvable"
+
+#: src/Breadcrumb.php:90
+msgid "Breadcrumb"
+msgstr "Fil d’Ariane"
+
+#: src/Customizer.php:21
+msgid "Header layout (desktop)"
+msgstr "Agencement de l’en-tête (ordinateur)"
+
+#: src/Customizer.php:22
+msgid "Classic: logo on the left, search on the right"
+msgstr "Classique : logo à gauche, recherche à droite"
+
+#: src/Customizer.php:23
+msgid "Centered: logo, search and menu centered"
+msgstr "Centré : logo, recherche et menu centrés"
+
+#: src/Customizer.php:24
+msgid "Compact: logo, menu and search on one line"
+msgstr "Compact : logo, menu et recherche sur une ligne"
+
+#: src/Customizer.php:26
+msgid "Header layout (mobile)"
+msgstr "Agencement de l’en-tête (mobile)"
+
+#: src/Customizer.php:27
+msgid "Icons right of the logo"
+msgstr "Icônes à droite du logo"
+
+#: src/Customizer.php:28
+msgid "Logo centered between the icons"
+msgstr "Logo centré entre les icônes"
+
+#: src/Customizer.php:29
+msgid "Search field always visible"
+msgstr "Champ de recherche toujours visible"
+
+#: src/Customizer.php:31
+msgid "Mobile navigation"
+msgstr "Navigation mobile"
+
+#: src/Customizer.php:32
+msgid "Bar at the bottom of the screen"
+msgstr "Barre en bas de l’écran"
+
+#: src/Customizer.php:33
+msgid "Menu button in the header"
+msgstr "Bouton Menu dans l’en-tête"
+
+#: src/Customizer.php:35
+msgid "Footer"
+msgstr "Pied de page"
+
+#: src/Customizer.php:36
+msgid "Dark background"
+msgstr "Fond sombre"
+
+#: src/Customizer.php:37
+msgid "Light background"
+msgstr "Fond clair"
+
+#: src/Customizer.php:39
+msgid "Product page layout"
+msgstr "Disposition de la fiche produit"
+
+#: src/Customizer.php:40
+msgid "Classic: gallery left, purchase right"
+msgstr "Classique : galerie à gauche, achat à droite"
+
+#: src/Customizer.php:41
+msgid "XL gallery: large sticky gallery"
+msgstr "Galerie XL : grande galerie qui reste visible"
+
+#: src/Customizer.php:42
+msgid "Showcase: wide image, purchase box below"
+msgstr "Vitrine : grande image, boîte d’achat dessous"
+
+#: src/Customizer.php:43
+msgid "Minimal: one narrow column"
+msgstr "Minimal : une seule colonne étroite"
+
+#: src/Customizer.php:44
+msgid "Purchase always visible: sticky purchase box"
+msgstr "Achat toujours visible : boîte d’achat qui reste à l’écran"
+
+#: src/Customizer.php:45
+msgid "Magazine: title above, full width"
+msgstr "Magazine : titre au-dessus, sur toute la largeur"
+
+#: src/Customizer.php:47
+#: woocommerce/single-product/tabs/tabs.php:23
+msgid "Product details"
+msgstr "Détails du produit"
+
+#: src/Customizer.php:48
+msgid "Tabs"
+msgstr "Onglets"
+
+#: src/Customizer.php:49
+msgid "Accordion"
+msgstr "Accordéon"
+
+#: src/Customizer.php:50
+msgid "Stacked sections"
+msgstr "Sections empilées"
+
+#: src/Customizer.php:52
+msgid "Shop column"
+msgstr "Colonne de la boutique"
+
+#: src/Customizer.php:53
+msgid "Left column (filters, categories)"
+msgstr "Colonne de gauche (filtres, catégories)"
+
+#: src/Customizer.php:54
+msgid "No column"
+msgstr "Sans colonne"
+
+#: src/Customizer.php:56
+msgid "Products per row"
+msgstr "Produits par ligne"
+
+#: src/Customizer.php:67
+msgid "Layouts of the header, the footer and the product page."
+msgstr "Agencements de l’en-tête, du pied de page et de la fiche produit."
+
+#: src/Customizer.php:75
+msgid "Main colour"
+msgstr "Couleur principale"
+
+#: src/Customizer.php:76
+msgid "Leave empty to keep the Lagoon green (#0f766e). The lighter and darker shades are computed for you."
+msgstr "Laissez vide pour garder le vert Lagon (#0f766e). Les nuances plus claires et plus foncées sont calculées pour vous."
+
+#: src/Customizer.php:93
+msgid "Footer presentation text"
+msgstr "Texte de présentation du pied de page"
+
+#: src/Customizer.php:94
+msgid "Shown under the logo, in the first footer column."
+msgstr "Affiché sous le logo, dans la première colonne du pied de page."
+
+#: src/Customizer.php:101
+msgid "Copyright line"
+msgstr "Ligne de copyright"
+
+#: src/Customizer.php:102
+msgid "Leave empty for “© year site name”."
+msgstr "Laissez vide pour « © année nom du site »."
+
+#: src/Shop.php:207
+#: template-parts/shop-sidebar.php:15
+msgid "Filter"
+msgstr "Filtrer"
+
+#: src/Shop.php:236
+#: src/template-tags.php:139
+msgid "Previous"
+msgstr "Précédent"
+
+#: src/Shop.php:237
+#: src/template-tags.php:140
+msgid "Next"
+msgstr "Suivant"
+
+#: src/Shop.php:267
+msgid "Out of stock"
+msgstr "Rupture de stock"
+
+#: src/Shop.php:270
+msgid "Sale"
+msgstr "Promo"
+
+#: src/Shop.php:286
+#: template-parts/tabbar.php:23
+msgid "New"
+msgstr "Nouveau"
+
+#: src/Shop.php:334
+msgid "Decrease quantity"
+msgstr "Diminuer la quantité"
+
+#: src/Shop.php:339
+msgid "Increase quantity"
+msgstr "Augmenter la quantité"
+
+#: src/template-tags.php:118
+msgid "Search our catalogue"
+msgstr "Rechercher dans le catalogue"
+
+#: src/template-tags.php:118
+#: src/template-tags.php:125
+#: template-parts/header.php:58
+msgid "Search"
+msgstr "Rechercher"
+
+#: src/template-tags.php:145
+msgid "Pagination"
+msgstr "Pagination"
+
+#: src/Theme.php:16
+msgid "Main menu (under the header)"
+msgstr "Menu principal (sous l’en-tête)"
+
+#: src/Theme.php:17
+msgid "Top bar links (left)"
+msgstr "Liens de la barre du haut (gauche)"
+
+#: src/Theme.php:18
+msgid "Footer links"
+msgstr "Liens du pied de page"
+
+#: src/Theme.php:19
+msgid "Legal links (bottom bar)"
+msgstr "Liens légaux (barre du bas)"
+
+#: src/Theme.php:31
+msgid "Banner (very top)"
+msgstr "Bandeau (tout en haut)"
+
+#: src/Theme.php:31
+msgid "Full-width strip above the header (PrestaShop hook displayBanner)."
+msgstr "Bande pleine largeur au-dessus de l’en-tête (hook PrestaShop displayBanner)."
+
+#: src/Theme.php:32
+msgid "Top bar — left"
+msgstr "Barre du haut — gauche"
+
+#: src/Theme.php:32
+msgid "Small links or contact details above the logo (displayNav1)."
+msgstr "Petits liens ou coordonnées au-dessus du logo (displayNav1)."
+
+#: src/Theme.php:33
+msgid "Top bar — right"
+msgstr "Barre du haut — droite"
+
+#: src/Theme.php:33
+msgid "Language or currency switchers, right of the top bar (displayNav2)."
+msgstr "Sélecteurs de langue ou de devise, à droite de la barre du haut (displayNav2)."
+
+#: src/Theme.php:34
+msgid "Header — search"
+msgstr "En-tête — recherche"
+
+#: src/Theme.php:34
+msgid "Replaces the built-in search field next to the logo (displayTop)."
+msgstr "Remplace le champ de recherche intégré à côté du logo (displayTop)."
+
+#: src/Theme.php:35
+msgid "Header — menu row"
+msgstr "En-tête — ligne du menu"
+
+#: src/Theme.php:35
+msgid "Replaces the main menu under the header, e.g. with a mega menu (displayNavFullWidth)."
+msgstr "Remplace le menu principal sous l’en-tête, par exemple par un méga-menu (displayNavFullWidth)."
+
+#: src/Theme.php:36
+msgid "Content — top, full width"
+msgstr "Contenu — haut, pleine largeur"
+
+#: src/Theme.php:36
+msgid "Under the header, before the breadcrumb (displayWrapperTop)."
+msgstr "Sous l’en-tête, avant le fil d’Ariane (displayWrapperTop)."
+
+#: src/Theme.php:37
+msgid "Home page"
+msgstr "Page d’accueil"
+
+#: src/Theme.php:37
+msgid "Sections of the home page, under the page content (displayHome)."
+msgstr "Sections de la page d’accueil, sous le contenu de la page (displayHome)."
+
+#: src/Theme.php:38
+msgid "Shop — left column"
+msgstr "Boutique — colonne de gauche"
+
+#: src/Theme.php:38
+msgid "Filters and categories next to the product list (displayLeftColumn)."
+msgstr "Filtres et catégories à côté de la liste de produits (displayLeftColumn)."
+
+#: src/Theme.php:39
+msgid "Blog — right column"
+msgstr "Blog — colonne de droite"
+
+#: src/Theme.php:39
+msgid "Column shown next to posts and blog archives (displayRightColumn)."
+msgstr "Colonne affichée à côté des articles et des archives du blog (displayRightColumn)."
+
+#: src/Theme.php:40
+msgid "Product — reassurance"
+msgstr "Produit — réassurance"
+
+#: src/Theme.php:40
+msgid "Under the add-to-cart button on product pages (displayReassurance)."
+msgstr "Sous le bouton d’ajout au panier des fiches produit (displayReassurance)."
+
+#: src/Theme.php:41
+msgid "Product — bottom"
+msgstr "Produit — bas de page"
+
+#: src/Theme.php:41
+msgid "Under the product details and related products (displayFooterProduct)."
+msgstr "Sous les détails du produit et les produits similaires (displayFooterProduct)."
+
+#: src/Theme.php:42
+msgid "Cart — bottom"
+msgstr "Panier — bas de page"
+
+#: src/Theme.php:42
+msgid "Under the cart (displayShoppingCartFooter)."
+msgstr "Sous le panier (displayShoppingCartFooter)."
+
+#: src/Theme.php:43
+msgid "Content — bottom, full width"
+msgstr "Contenu — bas, pleine largeur"
+
+#: src/Theme.php:43
+msgid "Just above the footer (displayWrapperBottom)."
+msgstr "Juste au-dessus du pied de page (displayWrapperBottom)."
+
+#: src/Theme.php:44
+msgid "Footer — strip above"
+msgstr "Pied de page — bande au-dessus"
+
+#: src/Theme.php:44
+msgid "Coloured strip stuck to the footer, e.g. newsletter (displayFooterBefore)."
+msgstr "Bande colorée collée au pied de page, par exemple la lettre d’information (displayFooterBefore)."
+
+#: src/Theme.php:45
+msgid "Footer — column 1"
+msgstr "Pied de page — colonne 1"
+
+#: src/Theme.php:45
+msgid "First footer column (displayFooter)."
+msgstr "Première colonne du pied de page (displayFooter)."
+
+#: src/Theme.php:46
+msgid "Footer — column 2"
+msgstr "Pied de page — colonne 2"
+
+#: src/Theme.php:46
+msgid "Second footer column (displayFooter)."
+msgstr "Deuxième colonne du pied de page (displayFooter)."
+
+#: src/Theme.php:47
+msgid "Footer — column 3"
+msgstr "Pied de page — colonne 3"
+
+#: src/Theme.php:47
+msgid "Third footer column (displayFooter)."
+msgstr "Troisième colonne du pied de page (displayFooter)."
+
+#: src/Theme.php:48
+msgid "Footer — bottom bar"
+msgstr "Pied de page — barre du bas"
+
+#: src/Theme.php:48
+msgid "Right of the copyright line (displayFooterAfter)."
+msgstr "À droite de la ligne de copyright (displayFooterAfter)."
+
+#: template-parts/footer.php:18
+msgid "Information"
+msgstr "Informations"
+
+#: template-parts/header.php:12
+#: template-parts/tabbar.php:17
+msgid "Account"
+msgstr "Compte"
+
+#: template-parts/header.php:12
+#: template-parts/tabbar.php:17
+msgid "Sign in"
+msgstr "Connexion"
+
+#: template-parts/header.php:25
+msgid "Secondary navigation"
+msgstr "Navigation secondaire"
+
+#: template-parts/header.php:47
+#: template-parts/header.php:74
+#: template-parts/tabbar.php:20
+msgid "Cart"
+msgstr "Panier"
+
+#: template-parts/header.php:55
+#: template-parts/header.php:109
+#: template-parts/header.php:112
+#: template-parts/tabbar.php:16
+msgid "Menu"
+msgstr "Menu"
+
+#: template-parts/header.php:98
+#: template-parts/header.php:117
+msgid "Main menu"
+msgstr "Menu principal"
+
+#: template-parts/header.php:113
+#: template-parts/shop-sidebar.php:16
+msgid "Close"
+msgstr "Fermer"
+
+#: template-parts/home/categories.php:18
+msgid "Shop by category"
+msgstr "Nos catégories"
+
+#. translators: %d: number of products
+#: template-parts/home/categories.php:29
+#, php-format
+msgid "%d product"
+msgid_plural "%d products"
+msgstr[0] "%d produit"
+msgstr[1] "%d produits"
+
+#: template-parts/home/hero.php:17
+msgid "Welcome to our shop"
+msgstr "Bienvenue dans notre boutique"
+
+#: template-parts/home/hero.php:19
+msgid "Read the blog"
+msgstr "Lire le blog"
+
+#: template-parts/home/new-products.php:18
+msgid "New products"
+msgstr "Nouveautés"
+
+#: template-parts/home/new-products.php:19
+msgid "All new products"
+msgstr "Toutes les nouveautés"
+
+#: template-parts/home/posts.php:18
+msgid "From the blog"
+msgstr "Sur le blog"
+
+#: template-parts/home/sale-products.php:18
+msgid "On sale"
+msgstr "Promotions"
+
+#. translators: %s: post title
+#: template-parts/post-card.php:25
+#, php-format
+msgid "Read “%s”"
+msgstr "Lire « %s »"
+
+#. translators: %s: post title
+#: template-parts/post-card.php:25
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: template-parts/shop-sidebar.php:13
+msgid "Filters"
+msgstr "Filtres"
+
+#: template-parts/shop-sidebar.php:22
+msgid "Categories"
+msgstr "Catégories"
+
+#: template-parts/tabbar.php:26
+msgid "Contact"
+msgstr "Contact"
+
+#: template-parts/tabbar.php:35
+msgid "Quick navigation"
+msgstr "Navigation rapide"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Brand"
+msgstr "Marque"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Brand, dark"
+msgstr "Marque, foncé"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Brand, light"
+msgstr "Marque, clair"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Brand, soft"
+msgstr "Marque, très clair"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr "Secondaire"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr "Accent"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Highlight"
+msgstr "Mise en avant"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Text"
+msgstr "Texte"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Border"
+msgstr "Bordure"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Surface"
+msgstr "Surface"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Page background"
+msgstr "Fond de page"
+
+#: theme.json
+msgctxt "Color name"
+msgid "Footer"
+msgstr "Pied de page"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Body"
+msgstr "Texte courant"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Headings"
+msgstr "Titres"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Petit"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr "Moyen"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Grand"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra large"
+msgstr "Très grand"
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr "Énorme"
+
+#: woocommerce/
+msgid "Account pages"
+msgstr "Pages du compte"
+
+#: woocommerce/
+msgid "Checkout"
+msgstr "Validation de la commande"
+
+#: woocommerce/
+msgid "Date:"
+msgstr "Date :"
+
+#: woocommerce/
+msgid "Email:"
+msgstr "E-mail :"
+
+#: woocommerce/
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)"
+msgstr "Bonjour %1$s (vous n’êtes pas %1$s ? <a href=\"%2$s\">Déconnexion</a>)"
+
+#: woocommerce/
+msgid "My account"
+msgstr "Mon compte"
+
+#: woocommerce/
+msgid "Order number:"
+msgstr "Numéro de commande :"
+
+#: woocommerce/
+msgid "Pay"
+msgstr "Payer"
+
+#: woocommerce/
+msgid "Payment method:"
+msgstr "Moyen de paiement :"
+
+#: woocommerce/
+msgid "Return to shop"
+msgstr "Retour à la boutique"
+
+#: woocommerce/
+msgid "Total:"
+msgstr "Total :"
+
+#: woocommerce/
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again."
+msgstr "Malheureusement, votre commande ne peut être traitée, car la banque ou le commerçant d’origine a refusé votre transaction. Veuillez tenter de nouveau votre achat."
+
+#: woocommerce/
+msgid "You must be logged in to checkout."
+msgstr "Vous devez être connecté pour commander."
+
+#: woocommerce/
+msgid "Your order"
+msgstr "Votre commande"
+
+#: src/Editor.php
+msgid "A card with a heading, a sentence and a button."
+msgstr "Une carte avec un titre, une phrase et un bouton."
+
+#: src/Editor.php
+msgid "Call to action"
+msgstr "Appel à l’action"
+
+#: src/Editor.php
+msgid "Card"
+msgstr "Carte"
+
+#: src/Editor.php
+msgid "Check marks"
+msgstr "Coches"
+
+#: src/Editor.php
+msgid "Contact us"
+msgstr "Contactez-nous"
+
+#: src/Editor.php
+msgid "Customer service"
+msgstr "Service client"
+
+#: src/Editor.php
+msgid "Describe your offer in one sentence, then invite your visitors to take the next step."
+msgstr "Décrivez votre offre en une phrase, puis invitez vos visiteurs à passer à l’étape suivante."
+
+#: src/Editor.php
+msgid "Explain how and when the order is shipped."
+msgstr "Expliquez comment et quand la commande est expédiée."
+
+#: src/Editor.php
+msgid "Fast delivery"
+msgstr "Livraison rapide"
+
+#: src/Editor.php
+msgid "List the payment methods you accept."
+msgstr "Indiquez les moyens de paiement que vous acceptez."
+
+#: src/Editor.php
+msgid "Main colour, shop column, products per row and footer texts."
+msgstr "Couleur principale, colonne de la boutique, produits par ligne et textes du pied de page."
+
+#: src/Editor.php
+msgid "More layouts in the Premium version"
+msgstr "Davantage d’agencements dans la version Premium"
+
+#: src/Editor.php
+msgid "Ready to get started?"
+msgstr "Prêt à vous lancer ?"
+
+#: src/Editor.php
+msgid "Say how and when you can be reached."
+msgstr "Dites comment et quand vous joindre."
+
+#: src/Editor.php
+msgid "Secure payment"
+msgstr "Paiement sécurisé"
+
+#: src/Editor.php
+msgid "Soft"
+msgstr "Doux"
+
+#: src/Editor.php
+msgid "Three cards side by side, to present your commitments."
+msgstr "Trois cartes côte à côte, pour présenter vos engagements."
+
+#: src/Editor.php
+msgid "Three features"
+msgstr "Trois atouts"
+
+#: src/Editor.php
+msgid "Websource theme"
+msgstr "Thème Websource"

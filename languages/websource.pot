@@ -1,0 +1,803 @@
+# Copyright (C) 2026 Websource
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Websource 1.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/websource\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-08T18:18:36+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: websource\n"
+
+#. Theme Name of the theme
+#: style.css
+#: src/Customizer.php:66
+msgid "Theme options"
+msgstr ""
+
+#. Theme URI of the theme
+#. Author URI of the theme
+#: style.css
+msgid "https://www.websource.fr/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Fast, accessible shop theme for WordPress and WooCommerce. Tailwind v4 compiled to static CSS: one small base file plus one file per page type (home, product archive, product, cart, checkout, account, post, page, search, 404). Built-in SEO head (canonical, robots, hreflang, Open Graph, JSON-LD) that steps aside when an SEO plugin is active, six product page layouts, design tokens driven by CSS variables."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Websource"
+msgstr ""
+
+#: 404.php:16
+msgid "This page cannot be found"
+msgstr ""
+
+#: 404.php:17
+msgid "The address may be wrong, or the page may have been moved. Search for what you need, or go back to the home page."
+msgstr ""
+
+#: 404.php:20
+msgid "Back to the home page"
+msgstr ""
+
+#: 404.php:22
+#: template-parts/home/hero.php:19
+msgid "Browse the shop"
+msgstr ""
+
+#. translators: %d: number of comments
+#: comments.php:18
+#, php-format
+msgid "%d comment"
+msgid_plural "%d comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: header.php:18
+msgid "Skip to content"
+msgstr ""
+
+#: index.php:21
+#: src/Breadcrumb.php:37
+#: template-parts/tabbar.php:23
+msgid "Blog"
+msgstr ""
+
+#: index.php:40
+msgid "Nothing has been published here yet."
+msgstr ""
+
+#: page.php:24
+#: single.php:40
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: search terms
+#: search.php:17
+#: src/Breadcrumb.php:55
+#, php-format
+msgid "Search results for “%s”"
+msgstr ""
+
+#. translators: %d: number of results
+#: search.php:18
+#, php-format
+msgid "%d result"
+msgid_plural "%d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: search.php:34
+msgid "No result matches your search. Try other words or check the spelling."
+msgstr ""
+
+#: single.php:44
+msgid "Posts"
+msgstr ""
+
+#: src/Breadcrumb.php:23
+#: template-parts/tabbar.php:15
+msgid "Home"
+msgstr ""
+
+#: src/Breadcrumb.php:57
+msgid "Page not found"
+msgstr ""
+
+#: src/Breadcrumb.php:90
+msgid "Breadcrumb"
+msgstr ""
+
+#: src/Customizer.php:21
+msgid "Header layout (desktop)"
+msgstr ""
+
+#: src/Customizer.php:22
+msgid "Classic: logo on the left, search on the right"
+msgstr ""
+
+#: src/Customizer.php:23
+msgid "Centered: logo, search and menu centered"
+msgstr ""
+
+#: src/Customizer.php:24
+msgid "Compact: logo, menu and search on one line"
+msgstr ""
+
+#: src/Customizer.php:26
+msgid "Header layout (mobile)"
+msgstr ""
+
+#: src/Customizer.php:27
+msgid "Icons right of the logo"
+msgstr ""
+
+#: src/Customizer.php:28
+msgid "Logo centered between the icons"
+msgstr ""
+
+#: src/Customizer.php:29
+msgid "Search field always visible"
+msgstr ""
+
+#: src/Customizer.php:31
+msgid "Mobile navigation"
+msgstr ""
+
+#: src/Customizer.php:32
+msgid "Bar at the bottom of the screen"
+msgstr ""
+
+#: src/Customizer.php:33
+msgid "Menu button in the header"
+msgstr ""
+
+#: src/Customizer.php:35
+msgid "Footer"
+msgstr ""
+
+#: src/Customizer.php:36
+msgid "Dark background"
+msgstr ""
+
+#: src/Customizer.php:37
+msgid "Light background"
+msgstr ""
+
+#: src/Customizer.php:39
+msgid "Product page layout"
+msgstr ""
+
+#: src/Customizer.php:40
+msgid "Classic: gallery left, purchase right"
+msgstr ""
+
+#: src/Customizer.php:41
+msgid "XL gallery: large sticky gallery"
+msgstr ""
+
+#: src/Customizer.php:42
+msgid "Showcase: wide image, purchase box below"
+msgstr ""
+
+#: src/Customizer.php:43
+msgid "Minimal: one narrow column"
+msgstr ""
+
+#: src/Customizer.php:44
+msgid "Purchase always visible: sticky purchase box"
+msgstr ""
+
+#: src/Customizer.php:45
+msgid "Magazine: title above, full width"
+msgstr ""
+
+#: src/Customizer.php:47
+#: woocommerce/single-product/tabs/tabs.php:23
+msgid "Product details"
+msgstr ""
+
+#: src/Customizer.php:48
+msgid "Tabs"
+msgstr ""
+
+#: src/Customizer.php:49
+msgid "Accordion"
+msgstr ""
+
+#: src/Customizer.php:50
+msgid "Stacked sections"
+msgstr ""
+
+#: src/Customizer.php:52
+msgid "Shop column"
+msgstr ""
+
+#: src/Customizer.php:53
+msgid "Left column (filters, categories)"
+msgstr ""
+
+#: src/Customizer.php:54
+msgid "No column"
+msgstr ""
+
+#: src/Customizer.php:56
+msgid "Products per row"
+msgstr ""
+
+#: src/Customizer.php:67
+msgid "Layouts of the header, the footer and the product page."
+msgstr ""
+
+#: src/Customizer.php:75
+msgid "Main colour"
+msgstr ""
+
+#: src/Customizer.php:76
+msgid "Leave empty to keep the Lagoon green (#0f766e). The lighter and darker shades are computed for you."
+msgstr ""
+
+#: src/Customizer.php:93
+msgid "Footer presentation text"
+msgstr ""
+
+#: src/Customizer.php:94
+msgid "Shown under the logo, in the first footer column."
+msgstr ""
+
+#: src/Customizer.php:101
+msgid "Copyright line"
+msgstr ""
+
+#: src/Customizer.php:102
+msgid "Leave empty for “© year site name”."
+msgstr ""
+
+#: src/Shop.php:207
+#: template-parts/shop-sidebar.php:15
+msgid "Filter"
+msgstr ""
+
+#: src/Shop.php:236
+#: src/template-tags.php:139
+msgid "Previous"
+msgstr ""
+
+#: src/Shop.php:237
+#: src/template-tags.php:140
+msgid "Next"
+msgstr ""
+
+#: src/Shop.php:267
+msgid "Out of stock"
+msgstr ""
+
+#: src/Shop.php:270
+msgid "Sale"
+msgstr ""
+
+#: src/Shop.php:286
+#: template-parts/tabbar.php:23
+msgid "New"
+msgstr ""
+
+#: src/Shop.php:334
+msgid "Decrease quantity"
+msgstr ""
+
+#: src/Shop.php:339
+msgid "Increase quantity"
+msgstr ""
+
+#: src/template-tags.php:118
+msgid "Search our catalogue"
+msgstr ""
+
+#: src/template-tags.php:118
+#: src/template-tags.php:125
+#: template-parts/header.php:58
+msgid "Search"
+msgstr ""
+
+#: src/template-tags.php:145
+msgid "Pagination"
+msgstr ""
+
+#: src/Theme.php:16
+msgid "Main menu (under the header)"
+msgstr ""
+
+#: src/Theme.php:17
+msgid "Top bar links (left)"
+msgstr ""
+
+#: src/Theme.php:18
+msgid "Footer links"
+msgstr ""
+
+#: src/Theme.php:19
+msgid "Legal links (bottom bar)"
+msgstr ""
+
+#: src/Theme.php:31
+msgid "Banner (very top)"
+msgstr ""
+
+#: src/Theme.php:31
+msgid "Full-width strip above the header (PrestaShop hook displayBanner)."
+msgstr ""
+
+#: src/Theme.php:32
+msgid "Top bar — left"
+msgstr ""
+
+#: src/Theme.php:32
+msgid "Small links or contact details above the logo (displayNav1)."
+msgstr ""
+
+#: src/Theme.php:33
+msgid "Top bar — right"
+msgstr ""
+
+#: src/Theme.php:33
+msgid "Language or currency switchers, right of the top bar (displayNav2)."
+msgstr ""
+
+#: src/Theme.php:34
+msgid "Header — search"
+msgstr ""
+
+#: src/Theme.php:34
+msgid "Replaces the built-in search field next to the logo (displayTop)."
+msgstr ""
+
+#: src/Theme.php:35
+msgid "Header — menu row"
+msgstr ""
+
+#: src/Theme.php:35
+msgid "Replaces the main menu under the header, e.g. with a mega menu (displayNavFullWidth)."
+msgstr ""
+
+#: src/Theme.php:36
+msgid "Content — top, full width"
+msgstr ""
+
+#: src/Theme.php:36
+msgid "Under the header, before the breadcrumb (displayWrapperTop)."
+msgstr ""
+
+#: src/Theme.php:37
+msgid "Home page"
+msgstr ""
+
+#: src/Theme.php:37
+msgid "Sections of the home page, under the page content (displayHome)."
+msgstr ""
+
+#: src/Theme.php:38
+msgid "Shop — left column"
+msgstr ""
+
+#: src/Theme.php:38
+msgid "Filters and categories next to the product list (displayLeftColumn)."
+msgstr ""
+
+#: src/Theme.php:39
+msgid "Blog — right column"
+msgstr ""
+
+#: src/Theme.php:39
+msgid "Column shown next to posts and blog archives (displayRightColumn)."
+msgstr ""
+
+#: src/Theme.php:40
+msgid "Product — reassurance"
+msgstr ""
+
+#: src/Theme.php:40
+msgid "Under the add-to-cart button on product pages (displayReassurance)."
+msgstr ""
+
+#: src/Theme.php:41
+msgid "Product — bottom"
+msgstr ""
+
+#: src/Theme.php:41
+msgid "Under the product details and related products (displayFooterProduct)."
+msgstr ""
+
+#: src/Theme.php:42
+msgid "Cart — bottom"
+msgstr ""
+
+#: src/Theme.php:42
+msgid "Under the cart (displayShoppingCartFooter)."
+msgstr ""
+
+#: src/Theme.php:43
+msgid "Content — bottom, full width"
+msgstr ""
+
+#: src/Theme.php:43
+msgid "Just above the footer (displayWrapperBottom)."
+msgstr ""
+
+#: src/Theme.php:44
+msgid "Footer — strip above"
+msgstr ""
+
+#: src/Theme.php:44
+msgid "Coloured strip stuck to the footer, e.g. newsletter (displayFooterBefore)."
+msgstr ""
+
+#: src/Theme.php:45
+msgid "Footer — column 1"
+msgstr ""
+
+#: src/Theme.php:45
+msgid "First footer column (displayFooter)."
+msgstr ""
+
+#: src/Theme.php:46
+msgid "Footer — column 2"
+msgstr ""
+
+#: src/Theme.php:46
+msgid "Second footer column (displayFooter)."
+msgstr ""
+
+#: src/Theme.php:47
+msgid "Footer — column 3"
+msgstr ""
+
+#: src/Theme.php:47
+msgid "Third footer column (displayFooter)."
+msgstr ""
+
+#: src/Theme.php:48
+msgid "Footer — bottom bar"
+msgstr ""
+
+#: src/Theme.php:48
+msgid "Right of the copyright line (displayFooterAfter)."
+msgstr ""
+
+#: template-parts/footer.php:18
+msgid "Information"
+msgstr ""
+
+#: template-parts/header.php:12
+#: template-parts/tabbar.php:17
+msgid "Account"
+msgstr ""
+
+#: template-parts/header.php:12
+#: template-parts/tabbar.php:17
+msgid "Sign in"
+msgstr ""
+
+#: template-parts/header.php:25
+msgid "Secondary navigation"
+msgstr ""
+
+#: template-parts/header.php:47
+#: template-parts/header.php:74
+#: template-parts/tabbar.php:20
+msgid "Cart"
+msgstr ""
+
+#: template-parts/header.php:55
+#: template-parts/header.php:109
+#: template-parts/header.php:112
+#: template-parts/tabbar.php:16
+msgid "Menu"
+msgstr ""
+
+#: template-parts/header.php:98
+#: template-parts/header.php:117
+msgid "Main menu"
+msgstr ""
+
+#: template-parts/header.php:113
+#: template-parts/shop-sidebar.php:16
+msgid "Close"
+msgstr ""
+
+#: template-parts/home/categories.php:18
+msgid "Shop by category"
+msgstr ""
+
+#. translators: %d: number of products
+#: template-parts/home/categories.php:29
+#, php-format
+msgid "%d product"
+msgid_plural "%d products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/home/hero.php:17
+msgid "Welcome to our shop"
+msgstr ""
+
+#: template-parts/home/hero.php:19
+msgid "Read the blog"
+msgstr ""
+
+#: template-parts/home/new-products.php:18
+msgid "New products"
+msgstr ""
+
+#: template-parts/home/new-products.php:19
+msgid "All new products"
+msgstr ""
+
+#: template-parts/home/posts.php:18
+msgid "From the blog"
+msgstr ""
+
+#: template-parts/home/sale-products.php:18
+msgid "On sale"
+msgstr ""
+
+#. translators: %s: post title
+#: template-parts/post-card.php:25
+#, php-format
+msgid "Read “%s”"
+msgstr ""
+
+#. translators: %s: post title
+#: template-parts/post-card.php:25
+msgid "Read more"
+msgstr ""
+
+#: template-parts/shop-sidebar.php:13
+msgid "Filters"
+msgstr ""
+
+#: template-parts/shop-sidebar.php:22
+msgid "Categories"
+msgstr ""
+
+#: template-parts/tabbar.php:26
+msgid "Contact"
+msgstr ""
+
+#: template-parts/tabbar.php:35
+msgid "Quick navigation"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Brand"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Brand, dark"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Brand, light"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Brand, soft"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Highlight"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Text"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Border"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Surface"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Page background"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Body"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Headings"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr ""
+
+#: woocommerce/
+msgid "Account pages"
+msgstr ""
+
+#: woocommerce/
+msgid "Checkout"
+msgstr ""
+
+#: woocommerce/
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/
+msgid "Hello %1$s (not %1$s? <a href=\"%2$s\">Log out</a>)"
+msgstr ""
+
+#: woocommerce/
+msgid "My account"
+msgstr ""
+
+#: woocommerce/
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce/
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/
+msgid "Return to shop"
+msgstr ""
+
+#: woocommerce/
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/
+msgid "Your order"
+msgstr ""
+
+#: src/Editor.php
+msgid "A card with a heading, a sentence and a button."
+msgstr ""
+
+#: src/Editor.php
+msgid "Call to action"
+msgstr ""
+
+#: src/Editor.php
+msgid "Card"
+msgstr ""
+
+#: src/Editor.php
+msgid "Check marks"
+msgstr ""
+
+#: src/Editor.php
+msgid "Contact us"
+msgstr ""
+
+#: src/Editor.php
+msgid "Customer service"
+msgstr ""
+
+#: src/Editor.php
+msgid "Describe your offer in one sentence, then invite your visitors to take the next step."
+msgstr ""
+
+#: src/Editor.php
+msgid "Explain how and when the order is shipped."
+msgstr ""
+
+#: src/Editor.php
+msgid "Fast delivery"
+msgstr ""
+
+#: src/Editor.php
+msgid "List the payment methods you accept."
+msgstr ""
+
+#: src/Editor.php
+msgid "Main colour, shop column, products per row and footer texts."
+msgstr ""
+
+#: src/Editor.php
+msgid "More layouts in the Premium version"
+msgstr ""
+
+#: src/Editor.php
+msgid "Ready to get started?"
+msgstr ""
+
+#: src/Editor.php
+msgid "Say how and when you can be reached."
+msgstr ""
+
+#: src/Editor.php
+msgid "Secure payment"
+msgstr ""
+
+#: src/Editor.php
+msgid "Soft"
+msgstr ""
+
+#: src/Editor.php
+msgid "Three cards side by side, to present your commitments."
+msgstr ""
+
+#: src/Editor.php
+msgid "Three features"
+msgstr ""
+
+#: src/Editor.php
+msgid "Websource theme"
+msgstr ""

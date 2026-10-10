@@ -1,0 +1,54 @@
+/* Cart (classic shortcode): lines on the left, totals card on the right. Blocks: see wc-blocks.css. */
+.woocommerce-cart .wsx-entry>.woocommerce{display:grid;grid-template-columns:minmax(0,1fr);gap:0 2rem;align-items:start}
+.woocommerce-cart .wsx-entry>.woocommerce>*{grid-column:1 / -1;min-width:0}
+@media (min-width:992px){
+  .woocommerce-cart .wsx-entry>.woocommerce:has(.cart-collaterals){grid-template-columns:minmax(0,1fr) 23rem}
+  .woocommerce-cart .wsx-entry>.woocommerce>.woocommerce-cart-form{grid-column:1}
+  .woocommerce-cart .wsx-entry>.woocommerce>.cart-collaterals{grid-column:2;position:sticky;inset-block-start:1.5rem}
+}
+table.cart .product-remove{width:2.75rem;padding-inline-end:0}
+table.cart a.remove{display:grid;place-items:center;width:2.25rem;height:2.25rem;border-radius:999px;background:var(--color-brand-50,#effaf8);color:var(--color-ink,#14282b);font-size:1.25rem;font-weight:400;line-height:1;text-decoration:none}
+table.cart a.remove:hover{background:#fee2e2;color:#b91c1c}
+table.cart .product-thumbnail{width:5.5rem}
+table.cart .product-thumbnail img{display:block;width:4.5rem;height:4.5rem;object-fit:cover;border-radius:.75rem}
+table.cart td.product-name a{color:var(--color-ink,#14282b)}
+table.cart td.product-name a:hover{color:var(--color-brand-700,#0b5f58)}
+table.cart td.product-subtotal{font-weight:700}
+table.cart td.actions{padding:1rem;background:var(--color-brand-50,#effaf8);text-align:end}
+table.cart td.actions .coupon{display:flex;flex-wrap:wrap;gap:.5rem;float:inline-start}
+table.cart td.actions .coupon .input-text{width:11rem;min-height:2.5rem}
+table.cart td.actions>.button{background:var(--color-surface,#fff);border-color:var(--color-line,#d9e6e4);color:var(--color-ink,#14282b);box-shadow:none}
+table.cart td.actions>.button:hover:not(:disabled){background:var(--color-brand-50,#effaf8);border-color:var(--color-brand-500,#1a9b8f)}
+@media (max-width:767.98px){
+  table.cart td.product-remove{position:absolute;inset-block-start:.5rem;inset-inline-end:.5rem;width:auto;padding:0}
+  table.cart tr.cart_item{position:relative;padding-block:.75rem}
+  table.cart td.product-thumbnail{justify-content:flex-start;width:auto}
+  table.cart td.product-thumbnail::before{display:none}
+  table.cart td.actions{display:block}
+  table.cart td.actions .coupon{float:none;margin-block-end:.75rem}
+  table.cart td.actions .coupon .input-text{flex:1 1 8rem;width:auto}
+  table.cart td.actions>.button{width:100%}
+}
+/* Totals card */
+.cart-collaterals .cross-sells{display:none}
+.cart_totals{padding:1.25rem 1.5rem 1.5rem;border:1px solid var(--color-line,#d9e6e4);border-radius:var(--radius-2xl,1.5rem);background:var(--color-surface,#fff);box-shadow:0 8px 30px -14px color-mix(in srgb,var(--color-ink,#14282b) 28%,transparent)}
+.cart_totals>h2{margin:0 0 .75rem;font-size:1.25rem}
+.cart_totals table.shop_table{margin:0 0 1rem;border:0;border-radius:0;box-shadow:none}
+.cart_totals table.shop_table :is(th,td){padding:.625rem 0;background:none}
+.cart_totals table.shop_table tr:first-child :is(th,td){border-block-start:0}
+.cart_totals table.shop_table th{font-weight:500;color:color-mix(in srgb,var(--color-ink,#14282b) 80%,transparent)}
+.cart_totals .order-total :is(th,td){font-size:1.25rem;font-weight:700;color:var(--color-ink,#14282b)}
+.cart_totals .woocommerce-shipping-methods{margin:0;padding:0;list-style:none}
+.cart_totals .woocommerce-shipping-methods li{margin:0 0 .25rem}
+.cart_totals .woocommerce-shipping-destination,.cart_totals .shipping-calculator-button{font-size:.8125rem}
+.cart_totals .woocommerce-shipping-destination{margin:.25rem 0}
+.shipping-calculator-form{margin-block-start:.75rem;text-align:start}
+.wc-proceed-to-checkout{margin:0}
+.wc-proceed-to-checkout .checkout-button{width:100%;min-height:3.25rem;font-size:1.0625rem}
+@media (max-width:767.98px){
+  .cart_totals table.shop_table_responsive tr{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:.25rem 1rem;padding-block:.5rem}
+  .cart_totals table.shop_table_responsive :is(td,th){display:block;padding:0}
+  .cart_totals table.shop_table_responsive td::before{display:none}
+  .cart_totals table.shop_table_responsive td{margin-inline-start:auto}
+}
+.wsx-cart-footer{margin-block-start:2rem}

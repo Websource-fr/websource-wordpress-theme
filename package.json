@@ -1,0 +1,17 @@
+{
+  "name": "websource-theme",
+  "version": "1.0.5",
+  "private": true,
+  "description": "Websource (WordPress + WooCommerce): Tailwind v4 compiled to static CSS, one base file plus one file per page type.",
+  "license": "GPL-2.0-or-later",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-css.mjs",
+    "watch": "node scripts/build-css.mjs --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11"
+  }
+}

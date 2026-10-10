@@ -1,0 +1,39 @@
+/* Customer account: sign in / register, navigation, dashboard cards, orders, addresses. */
+.woocommerce-account .wsx-entry>.woocommerce{display:grid;grid-template-columns:minmax(0,1fr);gap:1.5rem 2rem;align-items:start}
+.woocommerce-account .wsx-entry>.woocommerce>*{min-width:0}
+.woocommerce-account .wsx-entry>.woocommerce>.woocommerce-notices-wrapper{grid-column:1 / -1}
+@media (min-width:992px){
+  .woocommerce-account .wsx-entry>.woocommerce:has(.wsx-account-nav){grid-template-columns:16rem minmax(0,1fr)}
+}
+.wsx-account-nav{padding:.5rem;border:1px solid var(--color-line,#d9e6e4);border-radius:var(--radius-2xl,1.5rem);background:var(--color-surface,#fff);box-shadow:var(--wst-card-shadow,none)}
+.wsx-account-nav ul{display:grid;gap:.125rem;margin:0;padding:0;list-style:none}
+.wsx-account-nav li{margin:0}
+.wsx-account-nav a{display:flex;align-items:center;gap:.75rem;min-height:2.75rem;padding:.5rem .875rem;border-radius:1rem;color:var(--color-ink,#14282b);font-weight:600;text-decoration:none}
+.wsx-account-nav a:hover{background:var(--color-brand-50,#effaf8);color:var(--color-brand-700,#0b5f58)}
+.wsx-account-nav .is-active a{background:var(--color-brand-600,#0f766e);color:var(--color-brand-on,#fff)}
+@media (max-width:991.98px){
+  .wsx-account-nav{padding:.375rem;overflow-x:auto}
+  .wsx-account-nav ul{display:flex;gap:.25rem}
+  .wsx-account-nav a{white-space:nowrap}
+}
+.woocommerce-MyAccount-content>:first-child{margin-block-start:0}
+.woocommerce-MyAccount-content h2,.woocommerce-MyAccount-content h3{margin:0 0 .75rem}
+.wsx-account-hello{margin:0 0 1.25rem;font-size:1.0625rem}
+.wsx-account-links{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,12rem),1fr));gap:1rem;margin:0 0 1.5rem;padding:0;list-style:none}
+.wsx-account-links__item{display:grid;justify-items:center;gap:.625rem;height:100%;padding:1.5rem 1rem;color:var(--color-ink,#14282b);font-weight:600;text-align:center;text-decoration:none;transition:border-color .2s,box-shadow .2s,transform .2s}
+.wsx-account-links__item:hover{border-color:var(--color-brand-500,#1a9b8f);box-shadow:0 12px 30px -14px rgba(20,40,43,.3);transform:translateY(-2px);color:var(--color-brand-700,#0b5f58)}
+.wsx-account-links__icon{display:grid;place-items:center;width:3.5rem;height:3.5rem;border-radius:999px;background:var(--color-brand-50,#effaf8);color:var(--color-brand-600,#0f766e)}
+/* Sign in / register */
+#customer_login{display:grid;gap:1.5rem}
+#customer_login::before,#customer_login::after{display:none}
+@media (min-width:768px){#customer_login{grid-template-columns:repeat(2,minmax(0,1fr))}}
+#customer_login h2{margin:0 0 .75rem;font-size:1.25rem}
+.woocommerce-account .wsx-entry>.woocommerce>h2{margin:0;font-size:1.25rem}
+.woocommerce-account:not(.logged-in) .wsx-entry>.woocommerce:not(:has(#customer_login)){max-width:32rem;margin-inline:auto}
+.woocommerce-account:not(.logged-in) .wsx-entry>.woocommerce>form{margin:0}
+/* Orders */
+.woocommerce-orders-table__cell-order-actions .button{margin-block:.125rem}
+.woocommerce-pagination--without-numbers{display:flex;justify-content:space-between;gap:1rem}
+.woocommerce-order-details,.woocommerce-customer-details{margin-block-end:1.5rem}
+.woocommerce-EditAccountForm fieldset{margin-block:1.5rem 1rem;padding:1.25rem 1.5rem;border:1px solid var(--color-line,#d9e6e4);border-radius:var(--radius-2xl,1.5rem)}
+.woocommerce-EditAccountForm legend{padding-inline:.5rem}

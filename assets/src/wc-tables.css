@@ -1,0 +1,37 @@
+/* WooCommerce tables (cart, order review, orders, order details) and addresses. */
+table.shop_table{width:100%;margin:0 0 1.5rem;border:1px solid var(--color-line,#d9e6e4);border-radius:var(--radius-2xl,1.5rem);border-collapse:separate;border-spacing:0;background:var(--color-surface,#fff);box-shadow:var(--wst-card-shadow,none);font-size:.9375rem;overflow:hidden}
+table.shop_table :is(th,td){padding:.875rem 1rem;border-block-start:1px solid var(--color-line,#d9e6e4);text-align:start;vertical-align:middle}
+table.shop_table thead :is(th,td){border-block-start:0;background:var(--color-brand-50,#effaf8);font-size:.8125rem;font-weight:700;letter-spacing:.02em;text-transform:uppercase}
+table.shop_table tbody:first-child tr:first-child :is(th,td){border-block-start:0}
+table.shop_table tfoot :is(th,td){font-weight:600}
+table.shop_table tfoot tr.order-total :is(th,td){font-size:1.0625rem;font-weight:700;background:var(--color-brand-50,#effaf8)}
+table.shop_table :is(td,th):last-child{text-align:end}
+table.shop_table td.product-name,table.shop_table td.woocommerce-table__product-name{text-align:start}
+table.shop_table a{font-weight:600;text-decoration:none}
+table.shop_table .button{min-height:2.25rem;padding:.375rem .875rem;font-size:.875rem}
+table.shop_table .button+.button{margin-inline-start:.375rem}
+.woocommerce-table__product-name .wc-item-meta,.product-name .variation,.product-name dl{margin:.25rem 0 0;padding:0;list-style:none;font-size:.8125rem;color:var(--wst-muted)}
+.variation dt,.variation dd,.wc-item-meta li>*{display:inline;margin:0}
+.variation dd p,.wc-item-meta p{display:inline;margin:0}
+.variation dd::after{content:"";display:block}
+/* Small screens: each row becomes a card (cells labelled by data-title) */
+@media (max-width:767.98px){
+  table.shop_table_responsive thead{display:none}
+  table.shop_table_responsive,table.shop_table_responsive tbody,table.shop_table_responsive tr,table.shop_table_responsive td,table.shop_table_responsive th{display:block}
+  table.shop_table_responsive tr{padding:.5rem 0;border-block-start:1px solid var(--color-line,#d9e6e4)}
+  table.shop_table_responsive tbody tr:first-child{border-block-start:0}
+  table.shop_table_responsive :is(td,th){display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.375rem 1rem;border:0;text-align:end}
+  table.shop_table_responsive td[data-title]::before{content:attr(data-title);flex:none;font-weight:600;color:var(--wst-muted);text-align:start}
+  table.shop_table_responsive td.product-name,table.shop_table_responsive td.woocommerce-table__product-name{text-align:end}
+}
+/* Addresses */
+.woocommerce-columns--addresses,.woocommerce-Addresses,.u-columns.col2-set.addresses{display:grid;gap:1.25rem;margin-block-end:1.5rem}
+@media (min-width:768px){.woocommerce-columns--addresses,.woocommerce-Addresses,.u-columns.col2-set.addresses{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.woocommerce-columns--addresses::before,.woocommerce-columns--addresses::after{display:none}
+.woocommerce-column--billing-address,.woocommerce-column--shipping-address,.woocommerce-Address{padding:1.25rem 1.5rem;border:1px solid var(--color-line,#d9e6e4);border-radius:var(--radius-2xl,1.5rem);background:var(--color-surface,#fff);box-shadow:var(--wst-card-shadow,none)}
+.woocommerce-column__title,.woocommerce-Address-title :is(h2,h3){margin:0 0 .5rem;font-size:1.0625rem}
+.woocommerce-Address-title{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:.5rem}
+address{font-style:normal;line-height:1.6}
+.woocommerce-customer-details--phone,.woocommerce-customer-details--email{margin:.25rem 0 0}
+.woocommerce-order-details__title,.woocommerce-order-downloads__title{margin:1.5rem 0 .75rem;font-size:1.25rem}
+mark.order-number,mark.order-date,mark.order-status{background:none;color:inherit;font-weight:700}

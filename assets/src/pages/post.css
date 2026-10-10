@@ -1,0 +1,28 @@
+/* Single post: header, cover, content column, tags, navigation, comments. */
+.wsx-article{max-width:48rem;margin-inline:auto}
+.wsx-cols .wsx-article{margin-inline:0}
+.wsx-article__meta{display:flex;flex-wrap:wrap;gap:.25rem .5rem;margin:.5rem 0 0;font-size:.9375rem;color:var(--wst-muted)}
+.wsx-article__meta a{color:inherit}
+.wsx-article__cover{margin:0 0 1.5rem}
+.wsx-article__cover img{display:block;width:100%;border-radius:var(--radius-2xl,1.5rem)}
+.wsx-entry{font-size:1.0625rem;line-height:1.75}
+.wsx-article__tags{display:flex;flex-wrap:wrap;gap:.5rem;margin:1.5rem 0 0}
+.wsx-article__tags a{padding:.25rem .75rem;border-radius:999px;background:var(--color-brand-50,#effaf8);color:var(--color-brand-700,#0b5f58);font-size:.875rem;font-weight:600;text-decoration:none}
+.wsx-post-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;margin-block:2rem;padding-block:1.25rem;border-block:1px solid var(--color-line,#d9e6e4)}
+.wsx-post-nav a{font-weight:600;text-decoration:none}
+.wsx-post-nav__next{text-align:end}
+.wsx-comments{max-width:48rem;margin:2rem auto 0}
+.wsx-cols .wsx-comments{margin-inline:0}
+.wsx-comments__title{margin:0 0 1rem;font-size:1.25rem}
+.wsx-comments__list,.wsx-comments__list ol{margin:0;padding:0;list-style:none}
+.wsx-comments__list ol{margin-inline-start:1.5rem}
+.comment-body{margin:0 0 1rem;padding:1rem 1.25rem;border:1px solid var(--color-line,#d9e6e4);border-radius:var(--radius-xl,1rem);background:var(--color-surface,#fff)}
+.comment-author{display:flex;align-items:center;gap:.625rem;font-weight:600}
+.comment-author img{border-radius:999px}
+.comment-metadata{margin-block:.25rem .5rem;font-size:.8125rem}
+.comment-metadata a{color:var(--wst-muted);text-decoration:none}
+.comment-content p{margin:0 0 .5rem}
+.comment-respond{margin-block-start:1.5rem;padding:1.25rem 1.5rem;border:1px solid var(--color-line,#d9e6e4);border-radius:var(--radius-2xl,1.5rem);background:var(--color-surface,#fff)}
+.comment-form>p{margin:0 0 1rem}
+.comment-form-cookies-consent{display:flex;align-items:flex-start;gap:.5rem}
+.comment-form-cookies-consent label{margin:0;font-weight:400}

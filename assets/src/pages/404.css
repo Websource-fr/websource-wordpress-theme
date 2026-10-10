@@ -1,0 +1,6 @@
+/* Page not found. */
+.wsx-404{display:grid;justify-items:center;gap:1rem;max-width:40rem;margin-inline:auto;padding-block:3rem 2rem;text-align:center}
+.wsx-404__code{margin:0;font-family:var(--font-head);font-size:clamp(4.5rem,12vw,8rem);font-weight:800;line-height:1;letter-spacing:-.04em;color:var(--color-brand-200,#b0e0d9)}
+.wsx-404__text{margin:0;color:var(--wst-muted)}
+.wsx-404__search{width:100%;max-width:30rem}
+.wsx-404__actions{display:flex;flex-wrap:wrap;justify-content:center;gap:.75rem;margin:0}

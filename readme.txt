@@ -1,0 +1,85 @@
+=== Websource ===
+Contributors: websourcefr
+Tags: e-commerce, blog, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-logo, custom-menu, block-patterns, featured-images, footer-widgets, rtl-language-support, translation-ready, block-styles, wide-blocks, threaded-comments
+Requires at least: 6.4
+Tested up to: 7.1
+Requires PHP: 7.4
+Stable tag: 1.0.5
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+Fast, accessible shop theme for WooCommerce and blogs, with one small stylesheet per page type.
+
+== Description ==
+
+Websource is a shop and blog theme built for speed and readability.
+
+* Static CSS compiled from Tailwind CSS: one base file (`assets/css/theme.css`) plus one file per page type (home, product archive, product, cart, checkout, account, post, blog, page, search, 404). Only the file of the current page is loaded. The uncompiled sources are in `assets/src/`.
+* Header with search, account and cart, menu drawer on mobile, footer with widget columns.
+* Product cards, product page with gallery, purchase box and details as tabs.
+* Cart, checkout and account templates; works with the WooCommerce Cart and Checkout blocks and with the classic shortcodes.
+* Design tokens as CSS variables, overridable with the `websource_theme_tokens` filter.
+* 18 widget areas and 4 menu locations, `theme.json` for the block editor, three block styles and two block patterns, custom background and header image, RTL ready (logical properties), French translation included.
+* Works without WooCommerce (blog and pages).
+
+== Installation ==
+
+1. In your admin panel, go to Appearance > Themes and click the Add New button.
+2. Click Upload Theme, choose the zip file, then click Install Now.
+3. Click Activate.
+4. Assign your menus in Appearance > Menus > Manage locations.
+5. Choose the layouts in Appearance > Customize > Theme options.
+
+== Frequently Asked Questions ==
+
+= What is displayed on the front page? =
+
+The theme follows Settings > Reading. With “Your latest posts” it shows the blog index. With “A static page” it shows the content of that page and the “Home page” widget area; when both are empty it shows built-in sections (introduction, new products, product categories, products on sale, latest posts).
+
+= Do I need Node.js? =
+
+No. The compiled CSS is shipped. Node.js is only needed to rebuild the CSS after changing the sources in `assets/src/` (`npm install && npm run build`).
+
+= Is there a Premium version? =
+
+Yes. The theme page (see Theme URI) presents a Premium version sold by Websource with more header, footer and product page layouts and a set of companion plugins. This free theme is complete on its own and does not require it.
+
+= What does the theme store? Does it collect data? =
+
+The theme only stores its Customizer settings (theme mods named `websource_*`), which WordPress removes when the theme is deleted. It collects no data, sets no cookie and loads nothing from a remote server.
+
+== Changelog ==
+
+= 1.0.5 =
+* Wording: the paid theme is called the Premium version.
+
+= 1.0.4 =
+* The theme now ships one layout for the header, the footer and the product page.
+* Footer: credit link to the theme page.
+
+= 1.0.3 =
+* Block styles: “Soft” button, “Card” group, “Check marks” list.
+* Block patterns: “Call to action” and “Three features” (category Websource).
+* Custom background (Appearance > Background) and header image (Appearance > Header), displayed behind the welcome block of the home page.
+* Styles for `.wp-caption`, `.wp-caption-text`, `.gallery-caption` and `.bypostauthor`.
+
+= 1.0.2 =
+* First version submitted to the WordPress.org theme directory.
+* Front page follows the Reading settings (latest posts or static page).
+* Customizer settings renamed `websource_*`; text domain `websource`.
+
+== Copyright ==
+
+Websource WordPress Theme, Copyright 2026 Websource (https://www.websource.fr)
+Websource is distributed under the terms of the GNU General Public License, version 2 or later.
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 2 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+== Resources ==
+
+* Tailwind CSS v4.3.3, Copyright (c) Tailwind Labs, Inc., MIT License, https://tailwindcss.com — compiled into `assets/css/*.css` (its base styles include modern-normalize, Copyright (c) Sindre Sorhus, MIT License). Sources: `assets/src/`.
+* Icons (`src/Icons.php`): drawn by Websource, GPLv2 or later.
+* `assets/js/theme.js`, `assets/js/product.js`: written by Websource, GPLv2 or later.
+* screenshot.png: capture of the theme with demo content; product pictures are plain coloured shapes generated by Websource, GPLv2 or later. No third-party image.

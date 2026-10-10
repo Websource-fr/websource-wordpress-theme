@@ -1,0 +1,4 @@
+/* Standard page. */
+.wsx-pagecontent>.wsx-entry{font-size:1.0625rem;line-height:1.75}
+.wsx-pagecontent>.wsx-entry>:where(p,ul,ol,h2,h3,h4,blockquote,figure:not(.alignwide):not(.alignfull),.wp-block-table){max-width:52rem}
+.wsx-pagecontent>.wsx-entry>.alignwide{max-width:none}
